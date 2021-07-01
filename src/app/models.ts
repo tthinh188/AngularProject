@@ -9,7 +9,7 @@ export interface Game {
     metacritic: number;
     genres: Array<Genre>;
     parent_platforms: Array<ParentPlatform>;
-    publicshers: Array<Publishers>;
+    publishers: Array<Publishers>;
     ratings: Array<Rating>;
     screenshots: Array<Screenshots>;
     trailers: Array<Trailer>
