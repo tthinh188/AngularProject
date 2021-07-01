@@ -16,12 +16,15 @@ import { SearchBarComponent } from './componenets/search-bar/search-bar.componen
 import { HomeComponent } from './componenets/home/home.component';
 import { HttpHeadersInterceptor } from './interceptors/http-headers.interceptor';
 import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
+import { DetailsComponent } from './componenets/details/details.component';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +37,7 @@ import { HttpErrorsInterceptor } from './interceptors/http-errors.interceptor';
     MatSelectModule,
     MatTabsModule,
     MatIconModule,
+    MatProgressSpinnerModule,
   ],
   providers: [
     {
